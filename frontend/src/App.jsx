@@ -15,6 +15,7 @@ import Orders from './pages/Orders';
 import Cart from './pages/Cart';
 import Addresses from './pages/Addresses';
 import Missions from './pages/Missions';
+import Analytics from './pages/Analytics';
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
@@ -54,6 +55,7 @@ function AppContent() {
           <Route path="/addresses" element={<ProtectedRoute><Addresses /></ProtectedRoute>} />
           <Route path="/orders" element={<ProtectedRoute><Orders /></ProtectedRoute>} />
           <Route path="/missions" element={<ProtectedRoute><Missions /></ProtectedRoute>} />
+          <Route path="/analytics" element={<ProtectedRoute><Analytics /></ProtectedRoute>} />
         </Routes>
       </div>
     </div>

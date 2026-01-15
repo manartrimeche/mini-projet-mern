@@ -23,10 +23,39 @@ const Navbar = () => {
         BeautyShop
       </Link>
       
-      <div style={{ display: 'flex', gap: '1rem' }}>
+      <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
         <Link to="/products" style={{ color: '#333', textDecoration: 'none' }}>Produits</Link>
         {isAuthenticated && (
-          <Link to="/missions" style={{ color: '#333', textDecoration: 'none' }}>Missions</Link>
+          <>
+            <Link to="/missions" style={{ color: '#333', textDecoration: 'none' }}>Missions</Link>
+            <Link 
+              to="/analytics" 
+              style={{ 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                color: '#fff', 
+                textDecoration: 'none', 
+                fontWeight: '600', 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: '6px',
+                padding: '0.5rem 1rem',
+                borderRadius: '8px',
+                fontSize: '0.95rem',
+                boxShadow: '0 2px 8px rgba(102, 126, 234, 0.3)',
+                transition: 'all 0.3s ease'
+              }}
+              onMouseEnter={(e) => {
+                e.target.style.transform = 'translateY(-2px)';
+                e.target.style.boxShadow = '0 4px 12px rgba(102, 126, 234, 0.4)';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.transform = 'translateY(0)';
+                e.target.style.boxShadow = '0 2px 8px rgba(102, 126, 234, 0.3)';
+              }}
+            >
+              📊 Analytics
+            </Link>
+          </>
         )}
         <Link to="/cart" style={{ color: '#333', textDecoration: 'none', position: 'relative', display: 'flex', alignItems: 'center' }}>
           <ShoppingCart size={20} />

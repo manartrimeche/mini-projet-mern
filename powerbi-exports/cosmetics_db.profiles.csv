@@ -1,0 +1,9 @@
+_id,user,bio,dateOfBirth,gender,profilePicture,skinProfile.skinType,skinProfile.sensitivity,hairProfile.hairType,hairProfile.hairTexture,hairProfile.scalpType,profileCompleted,gamification.totalPoints,gamification.level,wallet.discountPoints,createdAt,updatedAt,__v
+696559ca7f0f6a716067ba3c,696559c97f0f6a716067ba2c,,1990-01-01T08:00:00.000Z,female,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.335Z,2026-01-12T20:30:02.335Z,0
+696559ca7f0f6a716067ba3f,696559c97f0f6a716067ba2e,,1991-02-04T08:00:00.000Z,male,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.340Z,2026-01-12T20:30:02.340Z,0
+696559ca7f0f6a716067ba42,696559c97f0f6a716067ba30,,1992-03-07T08:00:00.000Z,female,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.343Z,2026-01-12T20:30:02.343Z,0
+696559ca7f0f6a716067ba45,696559c97f0f6a716067ba32,,1993-04-10T07:00:00.000Z,male,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.348Z,2026-01-12T20:30:02.348Z,0
+696559ca7f0f6a716067ba48,696559ca7f0f6a716067ba34,,1994-05-13T07:00:00.000Z,female,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.350Z,2026-01-12T20:30:02.350Z,0
+696559ca7f0f6a716067ba4b,696559ca7f0f6a716067ba36,,1995-06-16T07:00:00.000Z,male,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.353Z,2026-01-12T20:30:02.353Z,0
+696559ca7f0f6a716067ba4e,696559ca7f0f6a716067ba38,,1996-07-19T07:00:00.000Z,female,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.355Z,2026-01-12T20:30:02.355Z,0
+696559ca7f0f6a716067ba51,696559ca7f0f6a716067ba3a,,1997-08-22T07:00:00.000Z,male,,non-défini,normale,non-défini,non-défini,non-défini,false,0,1,0,2026-01-12T20:30:02.357Z,2026-01-12T20:30:02.357Z,0

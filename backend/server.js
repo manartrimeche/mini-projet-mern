@@ -58,6 +58,7 @@ const reviewRoutes = require('./routes/reviewRoutes');
 const aiRoutes = require('./routes/aiRoutes');
 const profileRoutes = require('./routes/profileRoutes');
 const taskRoutes = require('./routes/taskRoutes');
+const analyticsRoutes = require('./routes/analyticsRoutes');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
@@ -68,6 +69,7 @@ app.use('/api/reviews', reviewRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/profile', profileRoutes);
 app.use('/api/tasks', taskRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
 // Route 404
 app.use((req, res) => {
